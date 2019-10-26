@@ -15,6 +15,7 @@ public class Ejecucion {
 
     @Test(priority=1)
     public void Vuelo() throws InterruptedException {
+            System.out.println("Hola");
         pom.buscarVuelo();
     }
 
