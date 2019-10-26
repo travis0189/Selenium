@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 
 public class Ejecucion {
 
-    Metodos pom = new  Metodos();
+     Metodos pom = new  Metodos();
 
-    @Test(priority=0)
-    public void Abrir(){
+        @Test(priority=0)
+        public void Abrir(){
         pom.pagina();
     }
 
@@ -27,6 +27,5 @@ public class Ejecucion {
     public void Captura() throws InterruptedException {
         pom.CapturaVuelo();
     }
-
 
 }

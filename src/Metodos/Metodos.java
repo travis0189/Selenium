@@ -11,10 +11,13 @@ import java.util.concurrent.TimeUnit;
 
 public class Metodos {
 
-    WebDriver driver = new ChromeDriver();
+    private WebDriver driver;
+
 
     public void  pagina() {
+
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+         driver = new ChromeDriver();
         driver.get("http://blazedemo.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
        // driver.manage().window().maximize();
