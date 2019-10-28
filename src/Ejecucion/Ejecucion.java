@@ -1,6 +1,7 @@
 package Ejecucion;
 
 import Metodos.Metodos;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -27,6 +28,7 @@ public class Ejecucion {
     @Test(priority=3)
     public void Captura() throws InterruptedException {
         pom.CapturaVuelo();
+        Assert.assertEquals(1,2);
     }
 
 }

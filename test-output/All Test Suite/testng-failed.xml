@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/travis/IdeaProjects/Selenium2(failed)">
+    <classes>
+      <class name="Ejecucion.Ejecucion">
+        <methods>
+          <include name="Captura"/>
+        </methods>
+      </class> <!-- Ejecucion.Ejecucion -->
+    </classes>
+  </test> <!-- C:/Users/travis/IdeaProjects/Selenium2(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
